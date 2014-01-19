@@ -12,8 +12,9 @@ h1 {
 	font-weight: 300; 
 }
 
-p {
+p, li {
 	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 100; 
 }
 
 h1, h2, h3, h4, h5, h6, a {
@@ -25,6 +26,22 @@ h1, h2, h3, h4, h5, h6, a {
 	font-size: 2em;
 }
 
+.recruit-header {
+	font-size: 4em;
+	line-height:0.7;
+}
+
+
+.recruit-header-grey {
+	color:#C3C488;
+	font-size: 4em;
+	line-height:0.7;
+}
+
+.grey {
+	color:#C3C488;
+}
+
 #exercise-date {
 	color: #cc0033;
 }
@@ -34,10 +51,13 @@ h1, h2, h3, h4, h5, h6, a {
 	font-weight: 300; 
 }
 
-#header-row {
+.header-row {
 	background-repeat:no-repeat; 
-	background-image: url(/static/imgs/background.jpg);
 	margin:0px;
+}
+
+#license-header {
+	background-image: url(/static/imgs/background.jpg);
 }
 
 .header-highlight {
@@ -53,13 +73,22 @@ h1, h2, h3, h4, h5, h6, a {
 	border-color:white;
 }
 
+.notes-box-white {
+	background-color: white;
+	padding-top: 1em;
+	border-width: 1em;
+	border-style: solid;
+	border-color:white;
+}
+
+.notes-box-white * {
+	color:#222;
+}
+
 .notes-box * {
 	color:white;
 }
 
-p {
-	font-weight: 100; 
-}
 
 b {
 	font-weight: 400; 

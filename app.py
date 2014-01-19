@@ -38,6 +38,10 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 def index():
 	return render_template('index.html')
 
+@app.route('/recruit')
+def recruit():
+	return render_template('recruit.html')
 
-#if __name__ == "__main__":
-#	app.run()
+
+if __name__ == "__main__":
+	app.run()
